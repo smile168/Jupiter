@@ -2,8 +2,7 @@ package db;
 
 import java.util.List;
 import java.util.Set;
-
-import entity.Item;
+import entitiy.Item;
 
 public interface DBConnection {
 	/**
@@ -52,7 +51,7 @@ public interface DBConnection {
 	public Set<String> getCategories(String itemId);
 
 	/**
-	 * Search items near a geolocation and a term (optional).
+	 * Search items near a geo-location and a term (optional).
 	 * 
 	 * @param userId
 	 * @param lat
